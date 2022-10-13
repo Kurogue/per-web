@@ -1,0 +1,14 @@
+.topbar-container {
+    background-color: black;
+    color: white;
+    width: 100vw;
+    height: 5vmin;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+
+    &>button {
+        color: limegreen;
+    }
+}
