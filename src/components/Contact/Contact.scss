@@ -1,0 +1,40 @@
+.contact-container{
+    background-color: grey;
+    // width: 100vw;
+    // height: 100vh;
+    color: color;
+    
+    &>.subcontact{
+        position: absolute;
+        top: 15vh;
+        background-color: white;
+        left: 50%;
+        transform: translate(-50%, 0);
+        width: 100vw;
+        font-size: 26px;
+
+        &>.icon-container{
+            width: 75%;
+            display: flex;
+            justify-content: space-around;
+            margin-left: 12.5%;
+            margin-top: 100px;
+
+            button {
+                width: 10vmax;
+                height: 10vmax;
+            }
+            svg{
+                font-size: 8vmax;
+            }
+
+            &>.circle-container {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                // border: 1px solid black;
+            }
+        }
+    }
+}

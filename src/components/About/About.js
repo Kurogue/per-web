@@ -1,10 +1,14 @@
-import './About.scss'
-import Picture from './Images/Picture'
+import "./About.scss";
+import Picture from "./Images/Picture";
+import Description from "./Description/Description";
 
 const About = () => {
   return (
-    <div className='about-container'><Picture/></div>
-  )
-}
+    <div className="about-container">
+      <Picture />
+      <Description />
+    </div>
+  );
+};
 
-export default About
+export default About;
